@@ -45,5 +45,18 @@ public class Tabla {
         System.out.println("la resta de " + numero5 + " / " + numero6 + " es: " + division);
         System.out.println();
         
+        System.out.println("La Multiplicacion");
+        System.out.print("INGRESE EL PRIMER NUMERO: ");
+        int numero7 = scanner.nextInt();
+        
+        System.out.print("INGRESE EL SEGUNDO NUMERO: ");
+        int numero8 = scanner.nextInt();
+        
+        int multi = numero7 * numero8;
+        System.out.println("la resta de " + numero7 + " / " + numero8 + " es: " + multi);
+        
+        scanner.close();
+        scanner.close();
+        
     }
 }
