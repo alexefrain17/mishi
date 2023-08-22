@@ -3,7 +3,7 @@
  */
 
 package com.mycompany.tabla;
-
+import java.util.Scanner;
 /**
  *
  * @author HP
@@ -11,6 +11,6 @@ package com.mycompany.tabla;
 public class Tabla {
 
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        Scanner scanner = new Scanner(System.in);
     }
 }
