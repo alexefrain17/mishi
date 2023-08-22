@@ -33,5 +33,17 @@ public class Tabla {
         int resta = numero3 - numero4;
         System.out.println("la resta de " + numero3 + " - " + numero4 + " es: " + resta);
         System.out.println();
+        
+        System.out.println("La Division"); 
+        System.out.print("INGRESE EL PRIMER NUMERO: ");
+        int numero5 = scanner.nextInt();
+        
+        System.out.print("INGRESE EL SEGUNDO NUMERO: ");
+        int numero6 = scanner.nextInt();
+        
+        int division = numero5 / numero6;
+        System.out.println("la resta de " + numero5 + " / " + numero6 + " es: " + division);
+        System.out.println();
+        
     }
 }
